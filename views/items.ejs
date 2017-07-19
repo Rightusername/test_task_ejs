@@ -1,0 +1,11 @@
+<ul class="items">
+	<% for(var i=0; i<items.length; i++)  { %>
+        <li class="clearfix item"> 	<div class="circle">1</div> Item <%= items[i] %></li>
+    <% } %>
+
+</ul>
+
+<div class="row arrows">
+	<div onclick="prev()" class="arrow_left">◄</div>
+	<div onclick="next()" class="arrow_right">►</div>
+</div>
