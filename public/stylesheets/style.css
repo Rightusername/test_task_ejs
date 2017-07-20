@@ -57,6 +57,7 @@ a {
 
 .arrows{
 	text-align: center;
+	user-select: none;
 }
 
 .arrows div{

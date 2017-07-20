@@ -23,5 +23,4 @@ exports.items = function(req, res){
 			res.render('items', {items: itemsB.slice(0 + offset, 3 + offset)});
 			break;
 	}
-	//res.render('items/:type', {items: itemsB});
 }

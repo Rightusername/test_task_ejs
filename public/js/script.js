@@ -37,6 +37,7 @@ function next(){
 function getItems(t, p){
 	type = t;
 	page = p; 
+	if(page < 0) page = 0;
 	$.ajax({
       type: 'GET',
       url: '/items/' + t + "/" + p,
